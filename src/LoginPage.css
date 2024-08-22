@@ -1,0 +1,86 @@
+/* Centering the login container on the page */
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f0f4f8;
+}
+
+/* Updated styling for the login box with increased width */
+.login-box {
+  background-color: #ffffff;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  width: 450px; /* Increased width */
+}
+
+/* Flexbox for centered layout of icon and text */
+.logo-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.mail-icon {
+  width: 60px;
+  margin-right: 20px;
+}
+
+.text-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+.text-container h2 {
+  font-family: 'Arial', sans-serif;
+  font-size: 20px;
+  color: #333;
+  margin: 0;
+}
+
+/* Styling the welcome message */
+h1 {
+  font-size: 28px;
+  font-family: 'Arial', sans-serif;
+  color: #125fa2;
+  margin-bottom: 20px;
+}
+
+/* Styling the Google sign-in button */
+.google-sign-in {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #dcdcdc;
+  color: rgb(0, 0, 0);
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-bottom: 15px;
+  width: 100%;
+}
+
+.google-sign-in:hover {
+  background-color: #bcbcbc;
+}
+
+.google-icon {
+  width: 20px;
+  margin-right: 10px;
+}
+
+/* Instruction text */
+.signin-instruction {
+  font-size: 14px;
+  color: #666;
+  margin-top: 10px;
+  border: 10;
+}
